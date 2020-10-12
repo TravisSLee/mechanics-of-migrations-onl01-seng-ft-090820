@@ -17,7 +17,3 @@ ActiveRecord::Base.establish_connection(
 
 require_relative "../artist.rb"
 
-def change
-  create_table :artists do |t|
-  end
-end
